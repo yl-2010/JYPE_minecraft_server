@@ -1,0 +1,16 @@
+# Secrets — never back up to GitHub
+.discord-webhook-url
+
+# Transient while the server is running
+world/session.lock
+logs/
+bluemap/logs/
+
+# BlueMap regenerates these map tiles from the world
+bluemap/web/maps/
+
+# Old world snapshots exceed GitHub's 100 MB file limit
+backups/*.tar.gz
+
+# macOS noise
+.DS_Store
