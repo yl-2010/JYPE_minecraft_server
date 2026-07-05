@@ -138,15 +138,19 @@ def important_event(message):
 
 
 def format_message(line):
+    line = line.rstrip("\r")
     match = LOG_RE.match(line)
     if not match:
         return None
 
     timestamp = match.group("time")
-    message = match.group("message")
+    message = match.group("message").rstrip("\r")
 
     if message.startswith("Done "):
         return f"[{timestamp}] Minecraft server is ready"
+
+    if message.startswith("Server empty for ") and message.endswith("pausing"):
+        return f"[{timestamp}] {message}"
 
     if not important_event(message):
         return None
