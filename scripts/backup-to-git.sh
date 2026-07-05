@@ -10,7 +10,7 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-SYNC_TIME=$(TZ=America/Los_Angeles date '+%l:%M %p' | tr '[:upper:]' '[:lower:]' | sed 's/^ *//')
+SYNC_TIME=$(TZ=America/Los_Angeles date '+%l:%M:%S %p' | tr '[:upper:]' '[:lower:]' | sed 's/^ *//')
 git commit -m "world sync ${SYNC_TIME} Pacific"
 git push
 
