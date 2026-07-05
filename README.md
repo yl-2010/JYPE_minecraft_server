@@ -29,7 +29,7 @@ The server can stay running. From this folder:
 
 ```bash
 git add -A
-git commit -m "Backup $(date '+%Y-%m-%d %H:%M')"
+git commit -m "world sync $(TZ=America/Los_Angeles date '+%l:%M %p' | tr '[:upper:]' '[:lower:]' | sed 's/^ *//') Pacific"
 git push
 ```
 
