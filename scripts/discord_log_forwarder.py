@@ -25,6 +25,41 @@ EVENT_PATTERNS = [
     re.compile(r"^<[^>]+> .+$"),
 ]
 
+CONSOLE_RESPONSE_PATTERNS = [
+    re.compile(r"^Set minecraft:.+$"),
+    re.compile(r"^Set the time to .+$"),
+    re.compile(r"^Set the weather to .+$"),
+    re.compile(r"^Changed game mode for .+$"),
+    re.compile(r"^Set own game mode to .+$"),
+    re.compile(r"^Set .* difficulty to .+$"),
+    re.compile(r"^Gave .+$"),
+    re.compile(r"^Applied enchantment .+$"),
+    re.compile(r"^Killed .+$"),
+    re.compile(r"^Summoned .+$"),
+    re.compile(r"^Teleported .+$"),
+    re.compile(r"^Unknown command or insufficient permissions.+$"),
+    re.compile(r"^Incorrect argument for command.+$"),
+    re.compile(r"^No player was found.+$"),
+    re.compile(r"^That player does not exist.+$"),
+    re.compile(r"^Nothing changed.+$"),
+    re.compile(r"^Saving the game.+$"),
+    re.compile(r"^Saved the game.+$"),
+    re.compile(r"^Stopped the server.+$"),
+    re.compile(r"^Stopping the server.+$"),
+    re.compile(r"^\d+ players online:.+$"),
+    re.compile(r"^Whitelist (is already )?(on|off).+$"),
+    re.compile(r"^Added .+ to the whitelist$"),
+    re.compile(r"^Removed .+ from the whitelist$"),
+    re.compile(r"^There are \d+ .+$"),
+    re.compile(r"^Running function .+$"),
+    re.compile(r"^Reloaded .+$"),
+    re.compile(r"^Seed: \[.+$"),
+    re.compile(r"^Banning .+$"),
+    re.compile(r"^Unbanned .+$"),
+    re.compile(r"^Opped .+$"),
+    re.compile(r"^De-opped .+$"),
+]
+
 DEATH_HINTS = (
     " was slain ",
     " was shot ",
@@ -65,6 +100,9 @@ def important_event(message):
     if any(pattern.search(message) for pattern in EVENT_PATTERNS):
         return True
 
+    if any(pattern.search(message) for pattern in CONSOLE_RESPONSE_PATTERNS):
+        return True
+
     lower_message = message.lower()
     return any(hint in lower_message for hint in DEATH_HINTS)
 
@@ -84,6 +122,14 @@ def format_message(line):
         return f"[{timestamp}] Minecraft server is ready"
 
     return f"[{timestamp}] {message}"
+
+
+def format_console_command(line):
+    command = line.strip()
+    if not command:
+        return None
+
+    return f"[console] {command}"
 
 
 def send_to_discord(webhook_url, content):
