@@ -10,6 +10,7 @@ import urllib.request
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 WEBHOOK_FILE = os.path.join(ROOT_DIR, ".discord-webhook-url")
+WHITELIST_FILE = os.path.join(ROOT_DIR, "whitelist.json")
 
 LOG_RE = re.compile(r"^\[(?P<time>\d{2}:\d{2}:\d{2})\] \[[^\]]+\]: (?P<message>.*)$")
 
@@ -96,7 +97,25 @@ def load_webhook_url():
         return ""
 
 
+def load_whitelist_names():
+    try:
+        with open(WHITELIST_FILE, "r", encoding="utf-8") as f:
+            entries = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return ()
+
+    return tuple(entry["name"] for entry in entries if entry.get("name"))
+
+
+def mentions_whitelist_player(message):
+    lower_message = message.lower()
+    return any(name.lower() in lower_message for name in load_whitelist_names())
+
+
 def important_event(message):
+    if mentions_whitelist_player(message):
+        return True
+
     if any(pattern.search(message) for pattern in EVENT_PATTERNS):
         return True
 
