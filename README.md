@@ -2,6 +2,13 @@
 
 Local Fabric Minecraft server backup repository.
 
+## Clone
+
+```bash
+git clone git@github.com:yl-2010/JYPE_minecraft_server.git ~/github/JYPE-minecraft-server
+cd ~/github/JYPE-minecraft-server
+```
+
 ## What's backed up
 
 - Live world data (`world/`)

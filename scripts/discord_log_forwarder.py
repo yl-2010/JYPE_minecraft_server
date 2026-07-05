@@ -61,6 +61,9 @@ CONSOLE_RESPONSE_PATTERNS = [
     re.compile(r"^De-opped .+$"),
 ]
 
+IGNORED_SUBSTRINGS = ("github", "uuid", "entity id")
+
+
 DEATH_HINTS = (
     " was slain ",
     " was shot ",
@@ -112,10 +115,12 @@ def mentions_whitelist_player(message):
     return any(name.lower() in lower_message for name in load_whitelist_names())
 
 
-def important_event(message):
-    if mentions_whitelist_player(message):
-        return True
+def is_ignored_message(message):
+    lower_message = message.lower()
+    return any(substring in lower_message for substring in IGNORED_SUBSTRINGS)
 
+
+def important_event(message):
     if any(pattern.search(message) for pattern in EVENT_PATTERNS):
         return True
 
@@ -123,7 +128,13 @@ def important_event(message):
         return True
 
     lower_message = message.lower()
-    return any(hint in lower_message for hint in DEATH_HINTS)
+    if any(hint in lower_message for hint in DEATH_HINTS):
+        return True
+
+    if mentions_whitelist_player(message):
+        return not is_ignored_message(message)
+
+    return False
 
 
 def format_message(line):
@@ -134,11 +145,11 @@ def format_message(line):
     timestamp = match.group("time")
     message = match.group("message")
 
-    if not important_event(message):
-        return None
-
     if message.startswith("Done "):
         return f"[{timestamp}] Minecraft server is ready"
+
+    if not important_event(message):
+        return None
 
     return f"[{timestamp}] {message}"
 
