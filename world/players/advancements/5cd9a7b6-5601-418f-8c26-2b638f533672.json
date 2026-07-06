@@ -135,6 +135,7 @@
       "minecraft:zombified_piglin": "2026-06-12 21:05:17 -0700",
       "minecraft:witch": "2026-06-25 22:10:19 -0700",
       "minecraft:wither_skeleton": "2026-06-17 19:15:39 -0700",
+      "minecraft:husk": "2026-07-05 16:26:20 -0700",
       "minecraft:cave_spider": "2026-07-02 12:12:24 -0700",
       "minecraft:piglin": "2026-06-17 11:38:00 -0700",
       "minecraft:enderman": "2026-06-16 21:17:20 -0700",
@@ -5540,6 +5541,18 @@
   "minecraft:recipes/decorations/red_glazed_terracotta": {
     "criteria": {
       "has_red_terracotta": "2026-07-04 17:04:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2026-07-05 16:37:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2026-07-05 16:37:06 -0700"
     },
     "done": true
   },
