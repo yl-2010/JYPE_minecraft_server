@@ -61,7 +61,7 @@ CONSOLE_RESPONSE_PATTERNS = [
     re.compile(r"^De-opped .+$"),
 ]
 
-IGNORED_SUBSTRINGS = ("github", "uuid", "entity id")
+IGNORED_SUBSTRINGS = ("github", "uuid", "entity id", "moved too quickly")
 
 
 DEATH_HINTS = (
