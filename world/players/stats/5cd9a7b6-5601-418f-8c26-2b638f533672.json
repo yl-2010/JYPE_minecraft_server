@@ -1,14 +1,14 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 728114,
+      "minecraft:time_since_rest": 800114,
       "minecraft:leave_game": 158,
       "minecraft:boat_one_cm": 17070372,
       "minecraft:damage_absorbed": 320,
-      "minecraft:time_since_death": 9810618,
+      "minecraft:time_since_death": 9882618,
       "minecraft:interact_with_furnace": 118,
       "minecraft:happy_ghast_one_cm": 1224799,
-      "minecraft:total_world_time": 37404420,
+      "minecraft:total_world_time": 37476420,
       "minecraft:crouch_one_cm": 790620,
       "minecraft:climb_one_cm": 1163206,
       "minecraft:raid_win": 760,
@@ -23,7 +23,7 @@
       "minecraft:walk_under_water_one_cm": 1383179,
       "minecraft:horse_one_cm": 1334,
       "minecraft:damage_dealt": 211984,
-      "minecraft:play_time": 37404420,
+      "minecraft:play_time": 37476420,
       "minecraft:jump": 184417,
       "minecraft:play_record": 2,
       "minecraft:sprint_one_cm": 30420738,
