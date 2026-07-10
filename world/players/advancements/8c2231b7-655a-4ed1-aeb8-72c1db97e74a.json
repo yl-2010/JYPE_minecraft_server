@@ -7,37 +7,22 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2026-06-09 13:54:21 -0700",
       "minecraft:snowy_slopes": "2026-06-10 11:49:39 -0700",
       "minecraft:old_growth_pine_taiga": "2026-06-10 12:16:55 -0700",
       "minecraft:mushroom_fields": "2026-06-10 12:43:51 -0700",
-      "minecraft:forest": "2026-06-09 12:53:57 -0700",
       "minecraft:taiga": "2026-06-09 23:43:51 -0700",
       "minecraft:deep_ocean": "2026-06-09 23:19:52 -0700",
-      "minecraft:lush_caves": "2026-07-01 14:07:43 -0700",
-      "minecraft:deep_cold_ocean": "2026-06-10 11:58:01 -0700",
-      "minecraft:ice_spikes": "2026-07-01 18:24:58 -0700",
-      "minecraft:frozen_ocean": "2026-06-09 23:50:41 -0700",
       "minecraft:eroded_badlands": "2026-06-11 09:35:39 -0700",
-      "minecraft:desert": "2026-06-11 09:23:58 -0700",
       "minecraft:frozen_river": "2026-06-09 23:30:19 -0700",
-      "minecraft:deep_frozen_ocean": "2026-07-01 14:41:53 -0700",
-      "minecraft:ocean": "2026-06-09 17:17:33 -0700",
-      "minecraft:jungle": "2026-06-11 11:52:04 -0700",
       "minecraft:sunflower_plains": "2026-06-10 11:11:47 -0700",
       "minecraft:cherry_grove": "2026-06-11 12:56:55 -0700",
       "minecraft:birch_forest": "2026-06-10 11:04:46 -0700",
       "minecraft:windswept_hills": "2026-06-09 23:24:51 -0700",
-      "minecraft:old_growth_spruce_taiga": "2026-06-10 12:13:21 -0700",
-      "minecraft:snowy_beach": "2026-06-09 23:50:13 -0700",
       "minecraft:wooded_badlands": "2026-06-11 09:26:17 -0700",
       "minecraft:bamboo_jungle": "2026-06-11 09:49:45 -0700",
-      "minecraft:windswept_savanna": "2026-06-11 12:12:01 -0700",
-      "minecraft:warm_ocean": "2026-06-28 14:22:27 -0700",
-      "minecraft:deep_lukewarm_ocean": "2026-06-10 12:42:25 -0700",
       "minecraft:badlands": "2026-06-11 09:26:02 -0700",
-      "minecraft:flower_forest": "2026-06-28 21:09:56 -0700",
       "minecraft:beach": "2026-06-09 12:59:54 -0700",
+      "minecraft:stony_peaks": "2026-07-10 13:34:12 -0700",
       "minecraft:sparse_jungle": "2026-06-11 09:45:24 -0700",
       "minecraft:river": "2026-06-09 13:53:47 -0700",
       "minecraft:lukewarm_ocean": "2026-06-10 12:43:07 -0700",
@@ -45,16 +30,32 @@
       "minecraft:snowy_plains": "2026-06-09 23:29:03 -0700",
       "minecraft:snowy_taiga": "2026-06-09 23:32:09 -0700",
       "minecraft:dripstone_caves": "2026-07-03 17:02:39 -0700",
+      "minecraft:swamp": "2026-06-09 23:23:11 -0700",
+      "minecraft:grove": "2026-06-10 11:20:46 -0700",
+      "minecraft:jagged_peaks": "2026-06-10 12:28:20 -0700",
+      "minecraft:cold_ocean": "2026-06-09 13:54:21 -0700",
+      "minecraft:forest": "2026-06-09 12:53:57 -0700",
+      "minecraft:lush_caves": "2026-07-01 14:07:43 -0700",
+      "minecraft:deep_cold_ocean": "2026-06-10 11:58:01 -0700",
+      "minecraft:ice_spikes": "2026-07-01 18:24:58 -0700",
+      "minecraft:frozen_ocean": "2026-06-09 23:50:41 -0700",
+      "minecraft:desert": "2026-06-11 09:23:58 -0700",
+      "minecraft:deep_frozen_ocean": "2026-07-01 14:41:53 -0700",
+      "minecraft:ocean": "2026-06-09 17:17:33 -0700",
+      "minecraft:jungle": "2026-06-11 11:52:04 -0700",
+      "minecraft:old_growth_spruce_taiga": "2026-06-10 12:13:21 -0700",
+      "minecraft:snowy_beach": "2026-06-09 23:50:13 -0700",
+      "minecraft:windswept_savanna": "2026-06-11 12:12:01 -0700",
+      "minecraft:warm_ocean": "2026-06-28 14:22:27 -0700",
+      "minecraft:deep_lukewarm_ocean": "2026-06-10 12:42:25 -0700",
+      "minecraft:flower_forest": "2026-06-28 21:09:56 -0700",
       "minecraft:frozen_peaks": "2026-06-10 11:49:35 -0700",
       "minecraft:old_growth_birch_forest": "2026-06-10 11:01:25 -0700",
       "minecraft:sulfur_caves": "2026-06-28 12:49:11 -0700",
       "minecraft:deep_dark": "2026-06-10 11:26:23 -0700",
-      "minecraft:swamp": "2026-06-09 23:23:11 -0700",
-      "minecraft:grove": "2026-06-10 11:20:46 -0700",
       "minecraft:meadow": "2026-06-10 11:41:49 -0700",
       "minecraft:savanna": "2026-06-11 12:21:27 -0700",
-      "minecraft:plains": "2026-06-09 13:55:33 -0700",
-      "minecraft:jagged_peaks": "2026-06-10 12:28:20 -0700"
+      "minecraft:plains": "2026-06-09 13:55:33 -0700"
     },
     "done": false
   },
@@ -5785,6 +5786,36 @@
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2026-07-10 10:52:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2026-07-10 13:38:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2026-07-10 13:51:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2026-07-10 13:38:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2026-07-10 13:42:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2026-07-10 13:51:24 -0700"
     },
     "done": true
   },
