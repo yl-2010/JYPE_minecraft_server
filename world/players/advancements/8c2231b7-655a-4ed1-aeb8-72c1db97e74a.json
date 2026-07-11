@@ -1171,12 +1171,14 @@
       "minecraft:hoglin": "2026-06-09 15:09:47 -0700",
       "minecraft:zombie_horse": "2026-06-23 19:40:24 -0700",
       "minecraft:breeze": "2026-07-01 14:09:29 -0700",
+      "minecraft:vindicator": "2026-07-10 18:06:10 -0700",
       "minecraft:magma_cube": "2026-06-17 19:13:13 -0700",
       "minecraft:spider": "2026-06-09 14:34:44 -0700",
       "minecraft:piglin_brute": "2026-06-28 14:51:26 -0700",
       "minecraft:creeper": "2026-06-09 17:21:03 -0700",
       "minecraft:wither": "2026-06-30 15:00:53 -0700",
       "minecraft:slime": "2026-07-02 12:47:09 -0700",
+      "minecraft:evoker": "2026-07-10 18:06:41 -0700",
       "minecraft:phantom": "2026-06-21 11:24:47 -0700",
       "minecraft:zombified_piglin": "2026-06-16 12:55:32 -0700",
       "minecraft:witch": "2026-06-12 22:06:11 -0700",
@@ -5876,6 +5878,12 @@
   "minecraft:recipes/building_blocks/bamboo_stairs": {
     "criteria": {
       "has_planks": "2026-07-10 14:02:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-07-10 18:07:53 -0700"
     },
     "done": true
   },
