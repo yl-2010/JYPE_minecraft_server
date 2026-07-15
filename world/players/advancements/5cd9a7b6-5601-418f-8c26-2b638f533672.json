@@ -6172,5 +6172,11 @@
     },
     "done": true
   },
+  "minecraft:adventure/overoverkill": {
+    "criteria": {
+      "overoverkill": "2026-07-15 09:37:22 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
