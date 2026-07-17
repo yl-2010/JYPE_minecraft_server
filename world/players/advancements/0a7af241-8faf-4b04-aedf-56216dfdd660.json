@@ -2059,5 +2059,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/creaking_heart": {
+    "criteria": {
+      "has_resin_block": "2026-07-16 16:32:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_clump": {
+    "criteria": {
+      "has_resin_block": "2026-07-16 16:32:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-16 16:27:19 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
