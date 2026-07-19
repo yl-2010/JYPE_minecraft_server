@@ -3044,6 +3044,24 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-07-18 11:08:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-18 11:11:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2026-07-18 11:15:29 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-07-18 11:16:53 -0700"
@@ -3080,18 +3098,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
-    "criteria": {
-      "has_cactus_flower": "2026-07-18 11:51:21 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/mace": {
-    "criteria": {
-      "has_breeze_rod": "2026-07-18 11:17:35 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-07-18 11:16:53 -0700"
@@ -3101,12 +3107,6 @@
   "minecraft:recipes/decorations/orange_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-07-18 11:16:53 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_leggings_dyed": {
-    "criteria": {
-      "has_leather_leggings": "2026-07-18 11:52:26 -0700"
     },
     "done": true
   },
@@ -3134,12 +3134,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/wind_charge": {
-    "criteria": {
-      "has_breeze_rod": "2026-07-18 11:17:35 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/purple_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-07-18 11:16:53 -0700"
@@ -3158,27 +3152,33 @@
     },
     "done": true
   },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2026-07-18 11:11:08 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_shulker_box": {
     "criteria": {
       "has_shulker_box": "2026-07-18 11:16:53 -0700"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:recipes/combat/mace": {
     "criteria": {
-      "fortress": "2026-07-18 11:08:08 -0700"
+      "has_breeze_rod": "2026-07-18 11:17:35 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
+  "minecraft:recipes/misc/wind_charge": {
     "criteria": {
-      "has_shulker_shell": "2026-07-18 11:15:29 -0700"
+      "has_breeze_rod": "2026-07-18 11:17:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2026-07-18 11:51:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_leggings_dyed": {
+    "criteria": {
+      "has_leather_leggings": "2026-07-18 11:52:26 -0700"
     },
     "done": true
   },
