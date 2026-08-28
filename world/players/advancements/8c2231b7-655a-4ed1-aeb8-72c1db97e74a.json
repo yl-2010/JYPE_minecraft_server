@@ -23,6 +23,7 @@
       "minecraft:badlands": "2026-06-11 09:26:02 -0700",
       "minecraft:beach": "2026-06-09 12:59:54 -0700",
       "minecraft:stony_peaks": "2026-07-10 13:34:12 -0700",
+      "minecraft:dark_forest": "2026-08-28 15:51:50 -0700",
       "minecraft:sparse_jungle": "2026-06-11 09:45:24 -0700",
       "minecraft:river": "2026-06-09 13:53:47 -0700",
       "minecraft:lukewarm_ocean": "2026-06-10 12:43:07 -0700",
@@ -5982,33 +5983,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2026-08-25 19:52:34 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_prismarine_shard": "2026-08-25 19:51:33 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sponge": {
-    "criteria": {
-      "has_wet_sponge": "2026-08-25 19:52:53 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/prismarine_wall": {
-    "criteria": {
-      "has_prismarine": "2026-08-25 19:52:34 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2026-08-25 19:52:34 -0700"
     },
     "done": true
   },
@@ -6021,6 +5998,24 @@
   "minecraft:recipes/building_blocks/dark_prismarine": {
     "criteria": {
       "has_prismarine_shard": "2026-08-25 19:51:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-08-25 19:52:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2026-08-25 19:52:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-08-25 19:52:34 -0700"
     },
     "done": true
   },
@@ -6039,6 +6034,12 @@
   "minecraft:recipes/building_blocks/prismarine_slab": {
     "criteria": {
       "has_prismarine": "2026-08-25 19:52:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2026-08-25 19:52:53 -0700"
     },
     "done": true
   },
