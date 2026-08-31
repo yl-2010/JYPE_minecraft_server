@@ -1195,6 +1195,7 @@
       "minecraft:enderman": "2026-06-09 15:14:12 -0700",
       "minecraft:stray": "2026-06-28 20:25:29 -0700",
       "minecraft:silverfish": "2026-07-01 15:01:02 -0700",
+      "minecraft:endermite": "2026-08-31 10:10:20 -0700",
       "minecraft:zombie": "2026-06-09 14:10:31 -0700",
       "minecraft:drowned": "2026-06-10 12:04:31 -0700",
       "minecraft:zombie_villager": "2026-06-09 14:33:23 -0700"
@@ -6040,6 +6041,30 @@
   "minecraft:recipes/building_blocks/sponge": {
     "criteria": {
       "has_wet_sponge": "2026-08-25 19:52:53 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2026-08-31 10:08:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_shelf": {
+    "criteria": {
+      "has_stripped_spruce_log": "2026-08-31 10:49:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_log": "2026-08-31 10:49:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2026-08-31 10:49:29 -0700"
     },
     "done": true
   },
