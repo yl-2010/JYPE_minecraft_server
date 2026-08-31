@@ -6068,5 +6068,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2026-08-31 13:20:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2026-08-31 13:20:23 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 4903
 }
