@@ -502,7 +502,8 @@
       "potato": "2026-06-09 12:59:24 -0700",
       "salmon": "2026-06-21 14:28:14 -0700",
       "cooked_beef": "2026-06-15 20:32:55 -0700",
-      "beef": "2026-06-09 12:24:38 -0700"
+      "beef": "2026-06-09 12:24:38 -0700",
+      "golden_carrot": "2026-08-30 20:43:29 -0700"
     },
     "done": false
   },
@@ -2059,6 +2060,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-16 16:27:19 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/creaking_heart": {
     "criteria": {
       "has_resin_block": "2026-07-16 16:32:52 -0700"
@@ -2068,12 +2075,6 @@
   "minecraft:recipes/misc/resin_clump": {
     "criteria": {
       "has_resin_block": "2026-07-16 16:32:52 -0700"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2026-07-16 16:27:19 -0700"
     },
     "done": true
   },
