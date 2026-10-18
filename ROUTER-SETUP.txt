@@ -2,7 +2,7 @@ Minecraft Server — Port Forwarding Setup
 =========================================
 
 Your Mac's local IP:  192.168.4.113  (interface: en1)
-Your public IP:       50.35.43.46     (give this to friends)
+Your public IP:       50.34.77.7      (give this to friends)
 Server port:          25565 (TCP)
 
 ROUTER STEPS (do this in your router admin panel):
@@ -18,17 +18,17 @@ ROUTER STEPS (do this in your router admin panel):
 5. (Recommended) Set a DHCP reservation so this Mac always gets 192.168.4.113
 
 FRIENDS CONNECT WITH:
-  Server address: 50.35.43.46
-  (Minecraft Java Edition 26.1.2 — no mods needed)
+  Server address: 50.34.77.7
+  (Minecraft Java Edition 26.3 — no mods needed)
 
 YOU TEST LOCALLY WITH:
   localhost
 
 TEST FROM OUTSIDE YOUR WIFI:
-  Use your phone on cellular → Multiplayer → Add Server → 50.35.43.46
+  Use your phone on cellular → Multiplayer → Add Server → 50.34.77.7
 
 If your public IP changes later, run: curl -4 ifconfig.me
 
 CGNAT CHECK:
-  Compare your router's WAN IP with 50.35.43.46. If they differ, port
+  Compare your router's WAN IP with 50.34.77.7. If they differ, port
   forwarding may not work — contact your ISP about a public IP.

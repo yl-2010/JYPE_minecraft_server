@@ -49,6 +49,7 @@
       "minecraft:warm_ocean": "2026-07-13 15:36:53 -0700",
       "minecraft:deep_lukewarm_ocean": "2026-06-21 13:21:03 -0700",
       "minecraft:flower_forest": "2026-06-09 22:16:36 -0700",
+      "minecraft:dappled_forest": "2026-10-18 00:39:08 -0700",
       "minecraft:frozen_peaks": "2026-06-18 21:50:52 -0700",
       "minecraft:old_growth_birch_forest": "2026-06-09 23:13:35 -0700",
       "minecraft:deep_dark": "2026-06-10 11:19:25 -0700",
@@ -6251,6 +6252,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gray_wool_slab": {
+    "criteria": {
+      "has_gray_wool": "2026-09-25 20:33:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_wool_stairs": {
+    "criteria": {
+      "has_gray_wool": "2026-09-25 20:33:44 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool_slab": {
     "criteria": {
       "has_black_wool": "2026-09-25 20:33:50 -0700"
@@ -6260,18 +6273,6 @@
   "minecraft:recipes/building_blocks/black_wool_stairs": {
     "criteria": {
       "has_black_wool": "2026-09-25 20:33:50 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_blue_wool_slab": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:35:21 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_blue_wool_stairs": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:35:21 -0700"
     },
     "done": true
   },
@@ -6287,6 +6288,54 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/dye_gray_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:33:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_cushion": {
+    "criteria": {
+      "has_gray_wool_slab": "2026-09-25 20:34:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:35:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:35:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:35:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:35:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:35:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:35:21 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_light_blue_wool_slab": {
     "criteria": {
       "has_needed_dye": "2026-09-25 20:35:22 -0700"
@@ -6299,39 +6348,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+  "minecraft:recipes/decorations/dye_light_blue_cushion": {
     "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+      "has_needed_dye": "2026-09-25 20:35:22 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_wool_slab": {
+  "minecraft:recipes/building_blocks/dye_red_wool_slab": {
     "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+      "has_needed_dye": "2026-09-25 20:42:33 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_wool_stairs": {
+  "minecraft:recipes/building_blocks/dye_red_wool_stairs": {
     "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+      "has_needed_dye": "2026-09-25 20:42:33 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_wool": {
+  "minecraft:recipes/decorations/dye_red_cushion": {
     "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:36 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_wool_slab": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:36 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_wool_stairs": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+      "has_needed_dye": "2026-09-25 20:42:33 -0700"
     },
     "done": true
   },
@@ -6353,111 +6390,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_red_wool_slab": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:42:33 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_wool_stairs": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:42:33 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool_slab": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:35:11 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool_stairs": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:35:11 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_wool_slab": {
-    "criteria": {
-      "has_gray_wool": "2026-09-25 20:33:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_wool_stairs": {
-    "criteria": {
-      "has_gray_wool": "2026-09-25 20:33:44 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_magenta_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:46 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_pink_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:36 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/dye_purple_harness": {
     "criteria": {
       "has_needed_dye": "2026-09-25 20:42:42 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_blue_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:35:21 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_gray_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:33:50 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_light_blue_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:35:22 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_magenta_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:46 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_magenta_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:46 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_magenta_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:46 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_pink_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:36 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_pink_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:36 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_pink_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:43:36 -0700"
     },
     "done": true
   },
@@ -6479,36 +6414,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dye_red_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:42:33 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_white_cushion": {
-    "criteria": {
-      "has_needed_dye": "2026-09-25 20:35:11 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_cushion": {
-    "criteria": {
-      "has_gray_wool_slab": "2026-09-25 20:34:01 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_candle": {
-    "criteria": {
-      "has_magenta_dye": "2026-09-25 20:43:46 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_candle": {
-    "criteria": {
-      "has_pink_dye": "2026-09-25 20:43:36 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
       "has_purple_dye": "2026-09-25 20:42:42 -0700"
@@ -6521,9 +6426,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/magenta_bundle": {
+  "minecraft:recipes/tools/purple_bundle": {
     "criteria": {
-      "has_magenta_dye": "2026-09-25 20:43:46 -0700"
+      "has_purple_dye": "2026-09-25 20:42:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_pink_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2026-09-25 20:43:36 -0700"
     },
     "done": true
   },
@@ -6533,9 +6486,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/purple_bundle": {
+  "minecraft:recipes/building_blocks/dye_magenta_wool": {
     "criteria": {
-      "has_purple_dye": "2026-09-25 20:42:42 -0700"
+      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_wool_slab": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_wool_stairs": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_magenta_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_magenta_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_magenta_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_magenta_cushion": {
+    "criteria": {
+      "has_needed_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_candle": {
+    "criteria": {
+      "has_magenta_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magenta_bundle": {
+    "criteria": {
+      "has_magenta_dye": "2026-09-25 20:43:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_mushroom": "2026-10-18 00:39:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_mushroom": "2026-10-18 00:39:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/poplar_boat": {
+    "criteria": {
+      "in_water": "2026-10-18 00:14:55 -0700"
     },
     "done": true
   },

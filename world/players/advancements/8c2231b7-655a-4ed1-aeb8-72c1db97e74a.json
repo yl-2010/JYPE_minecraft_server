@@ -42,6 +42,7 @@
       "minecraft:frozen_ocean": "2026-06-09 23:50:41 -0700",
       "minecraft:desert": "2026-06-11 09:23:58 -0700",
       "minecraft:deep_frozen_ocean": "2026-07-01 14:41:53 -0700",
+      "minecraft:windswept_forest": "2026-10-18 00:47:07 -0700",
       "minecraft:ocean": "2026-06-09 17:17:33 -0700",
       "minecraft:jungle": "2026-06-11 11:52:04 -0700",
       "minecraft:old_growth_spruce_taiga": "2026-06-10 12:13:21 -0700",
@@ -50,13 +51,15 @@
       "minecraft:warm_ocean": "2026-06-28 14:22:27 -0700",
       "minecraft:deep_lukewarm_ocean": "2026-06-10 12:42:25 -0700",
       "minecraft:flower_forest": "2026-06-28 21:09:56 -0700",
+      "minecraft:dappled_forest": "2026-10-18 00:53:49 -0700",
       "minecraft:frozen_peaks": "2026-06-10 11:49:35 -0700",
       "minecraft:old_growth_birch_forest": "2026-06-10 11:01:25 -0700",
       "minecraft:sulfur_caves": "2026-06-28 12:49:11 -0700",
       "minecraft:deep_dark": "2026-06-10 11:26:23 -0700",
       "minecraft:meadow": "2026-06-10 11:41:49 -0700",
       "minecraft:savanna": "2026-06-11 12:21:27 -0700",
-      "minecraft:plains": "2026-06-09 13:55:33 -0700"
+      "minecraft:plains": "2026-06-09 13:55:33 -0700",
+      "minecraft:pale_garden": "2026-10-18 00:52:25 -0700"
     },
     "done": false
   },
@@ -3059,12 +3062,6 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2026-06-12 22:06:12 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_red_mushroom": "2026-06-12 22:07:26 -0700"
     },
     "done": true
   },
@@ -6116,5 +6113,83 @@
     },
     "done": true
   },
-  "DataVersion": 4903
+  "minecraft:recipes/building_blocks/black_concrete_slab": {
+    "criteria": {
+      "has_black_concrete": "2026-10-18 00:11:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_slab_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-10-18 00:11:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_stairs": {
+    "criteria": {
+      "has_black_concrete": "2026-10-18 00:11:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_stairs_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-10-18 00:11:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool_slab": {
+    "criteria": {
+      "has_light_gray_wool": "2026-10-18 00:20:39 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool_stairs": {
+    "criteria": {
+      "has_light_gray_wool": "2026-10-18 00:20:39 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_golem_statue_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_golem_statue": "2026-10-18 00:43:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_slab": {
+    "criteria": {
+      "has_white_wool": "2026-10-18 00:20:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_stairs": {
+    "criteria": {
+      "has_white_wool": "2026-10-18 00:20:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/straw_bed": {
+    "criteria": {
+      "has_straw_bed": "2026-10-18 00:35:40 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_cushion": {
+    "criteria": {
+      "has_the_recipe": "2026-10-18 00:21:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/poplar_boat": {
+    "criteria": {
+      "in_water": "2026-10-18 00:11:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/poplar_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-10-18 00:11:37 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
 }
