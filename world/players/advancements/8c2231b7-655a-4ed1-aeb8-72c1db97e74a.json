@@ -6137,6 +6137,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/poplar_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-10-18 00:11:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/poplar_boat": {
+    "criteria": {
+      "in_water": "2026-10-18 00:11:52 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_wool_slab": {
     "criteria": {
       "has_light_gray_wool": "2026-10-18 00:20:39 -0700"
@@ -6146,12 +6158,6 @@
   "minecraft:recipes/building_blocks/light_gray_wool_stairs": {
     "criteria": {
       "has_light_gray_wool": "2026-10-18 00:20:39 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_golem_statue_from_honeycomb": {
-    "criteria": {
-      "has_oxidized_copper_golem_statue": "2026-10-18 00:43:25 -0700"
     },
     "done": true
   },
@@ -6167,27 +6173,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/straw_bed": {
-    "criteria": {
-      "has_straw_bed": "2026-10-18 00:35:40 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_cushion": {
     "criteria": {
       "has_the_recipe": "2026-10-18 00:21:54 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/poplar_boat": {
+  "minecraft:recipes/decorations/straw_bed": {
     "criteria": {
-      "in_water": "2026-10-18 00:11:52 -0700"
+      "has_straw_bed": "2026-10-18 00:35:40 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/poplar_chest_boat": {
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_golem_statue_from_honeycomb": {
     "criteria": {
-      "has_boat": "2026-10-18 00:11:37 -0700"
+      "has_oxidized_copper_golem_statue": "2026-10-18 00:43:25 -0700"
     },
     "done": true
   },
