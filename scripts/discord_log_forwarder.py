@@ -61,7 +61,18 @@ CONSOLE_RESPONSE_PATTERNS = [
     re.compile(r"^De-opped .+$"),
 ]
 
-IGNORED_SUBSTRINGS = ("github", "uuid", "entity id", "moved too quickly")
+# Movement corrections. Chat still goes through because those lines match first.
+IGNORED_SUBSTRINGS = (
+    "github",
+    "uuid",
+    "entity id",
+    "moved too quickly",
+    "moved wrongly",
+    "standing on air",
+    "force-sending blocks",
+    "floating too long",
+    "floating a vehicle",
+)
 
 
 DEATH_HINTS = (
