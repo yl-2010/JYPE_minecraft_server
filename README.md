@@ -23,6 +23,16 @@ cd ~/github/JYPE-minecraft-server
 - BlueMap rendered map tiles (large, regeneratable)
 - Old `.tar.gz` world snapshots in `backups/` (over GitHub's 100 MB file limit)
 
+## Login
+
+`com.jype.minecraft` starts the server at login with the same Java flags and the Discord console forwarder. If a copy is already running, the agent waits and does not start a second one.
+
+```bash
+bash deploy/launchagents/install.sh
+```
+
+Logs: `/tmp/jype-minecraft.log`.
+
 ## Push a backup
 
 The server can stay running. From this folder:
