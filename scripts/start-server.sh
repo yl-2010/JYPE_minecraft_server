@@ -24,7 +24,12 @@ if [[ ! -f "$JAR" ]]; then
 fi
 
 server_running() {
-  ps -axo command | awk 'index($0, "openjdk@25/bin/java") && index($0, "Fabric Minecraft Server Launcher") { found=1 } END { exit found ? 0 : 1 }'
+  # Match the java process only. A search that includes the jar name in the
+  # checker command also matches the checker, and the loop never exits.
+  ps -axo comm=,args= | awk '
+    $1 == "java" && index($0, "Fabric Minecraft Server Launcher") { found = 1 }
+    END { exit found ? 0 : 1 }
+  '
 }
 
 while server_running; do
